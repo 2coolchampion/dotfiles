@@ -14,7 +14,7 @@ return {
     end,
   },
   {
-    "rcarriaga/nvim-notify",
+    "rcarriga/nvim-notify",
     opts = {
       timeout = 10000,
     },
