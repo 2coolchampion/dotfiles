@@ -1,0 +1,5 @@
+- [] Show only buffers that are opened in windows and figure out a different way to view all opened buffers.
+- [] Accept autocompletion with Tab instead of Enter
+- [] Make neo-tree show up as a popup instead of a sidebar window
+- [] Add inc-rename for instant LSP renaming with immediate visual feedback
+- [] Add ~~focus.nvim~~(windows.nvim) for automatic windows resizing
