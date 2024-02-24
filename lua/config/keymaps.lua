@@ -5,8 +5,8 @@ local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
 -- Increment/decremment
-keymap.set('n', '+', '<C-a>')
-keymap.set('n', '-', '<C-x>')
+keymap.set("n", "+", "<C-a>")
+keymap.set("n", "-", "<C-x>")
 
 -- Delete a word backwards
 keymap.set("n", "dw", "<vb_d")
@@ -23,8 +23,8 @@ keymap.set("n", "<tab>", ":tabnext<Return>", opts)
 keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 
 -- Split window
-keymap.set("n", "ss", ":split<Return>", opts)
-keymap.set("n", "sv", ":vsplit<Return>", opts)
+keymap.set("n", "ss", ":split | buffer #<CR>", opts)
+keymap.set("n", "sv", ":vsplit | buffer #<CR>", opts)
 
 -- Move window
 keymap.set("n", "sh", "<C-w>h")
