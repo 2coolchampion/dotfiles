@@ -26,6 +26,9 @@ keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 keymap.set("n", "ss", ":split | buffer #<CR>", opts)
 keymap.set("n", "sv", ":vsplit | buffer #<CR>", opts)
 
+-- Toggle line wrapping
+keymap.set("n", "<A-z>", ":set wrap!<CR>", opts)
+
 -- Move window
 keymap.set("n", "sh", "<C-w>h")
 keymap.set("n", "sk", "<C-w>k")
