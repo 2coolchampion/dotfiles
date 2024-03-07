@@ -1,5 +1,26 @@
-- [] Show only buffers that are opened in windows and figure out a different way to view all opened buffers.
-- [] Accept autocompletion with Tab instead of Enter
-- [] Make neo-tree show up as a popup instead of a sidebar window
-- [] Add inc-rename for instant LSP renaming with immediate visual feedback
+- [] Implement and learn how to manage clipboard
+- [] Multi-cursor
+- [] Add Emmet support for wrapping with abbreviation and other standard features
+- [] When editing tsx/html tag, also edit the corresponding tag. (if already not implemented with Emmet)
+- [x] Limit number of columns the code goes wide, so that tailiwind is not off window (This is fixed by enabling wrapping, no need to not use free real estate imo)
 - [] Add ~~focus.nvim~~(windows.nvim) for automatic windows resizing
+- [] Accept autocompletion with Tab instead of Enter
+- [] Add Codeium
+- [] Show only buffers that are opened in windows and figure out a different way to view all opened buffers.
+- [] Add inc-rename for instant LSP renaming with immediate visual feedback instead of what I have now
+- [x] tmux - better keybindings
+- [x] Improve lazyGit theme
+- [] Learn how to serve website to mobile trough [LAN](https://youtu.be/yCK3easuYm4?si=CXNfNKIDVsHpPp-h)
+- [] Open links inside neovim and kitty, for example MDN references in autocompletions (window.innerWidth)
+- [x] Seems like prettier is not working when there is an error in code
+- [x] How can I select Inner word and search it using "/"
+- [] Find and replace all words that are the same but are not a function for example so treesitter can't help
+- [] Make moving the cursor faster when you press it twice fast
+- [] Add smooth scrolling plugin karb94/neoscroll.nvim (check nvim v.10 first)
+- [] Add tmux resurrect and continuum from [thish](https://youtu.be/GH3kpsbbERo?si=VeGR-pPU5HOxP3Fx) YT video
+- [] Make the buffer visible in the buffer line even if it's only one
+- [x] Add neovim session managment solutoin so that tmux can open neovim sessions with continuum
+- [] Make the dashboard restore section connected to auto-session instead of the persistence plugin manager. Or remove from dashboard altogether
+- [] Make the screen center (zz) when I use <C-d> or up.
+- [] In visual-multy mode CTRL+h doesn't work for deleting last letter
+- [] Make prettier format the text even if there are errorrs
