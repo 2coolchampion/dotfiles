@@ -14,20 +14,6 @@ return {
       desc = "Find Plugin File",
     },
     {
-      ";f",
-      function()
-        local builtin = require("telescope.builtin")
-        builtin.treesitter()
-      end,
-    },
-    {
-      ";s",
-      function()
-        local builtin = require("telescope.builtin")
-        builtin.treesitter()
-      end,
-    },
-    {
       "sf",
       function()
         local telescope = require("telescope")
