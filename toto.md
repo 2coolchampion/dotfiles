@@ -6,7 +6,6 @@
 - [] Add ~~focus.nvim~~(windows.nvim) for automatic windows resizing
 - [] Accept autocompletion with Tab instead of Enter
 - [] Add Codeium
-- [] Show only buffers that are opened in windows and figure out a different way to view all opened buffers.
 - [] Add inc-rename for instant LSP renaming with immediate visual feedback instead of what I have now
 - [x] tmux - better keybindings
 - [x] Improve lazyGit theme
@@ -15,12 +14,19 @@
 - [x] Seems like prettier is not working when there is an error in code
 - [x] How can I select Inner word and search it using "/"
 - [] Find and replace all words that are the same but are not a function for example so treesitter can't help
-- [] Make moving the cursor faster when you press it twice fast
+- [x] Make moving the cursor faster when you press it twice fast
 - [] Add smooth scrolling plugin karb94/neoscroll.nvim (check nvim v.10 first)
-- [] Add tmux resurrect and continuum from [thish](https://youtu.be/GH3kpsbbERo?si=VeGR-pPU5HOxP3Fx) YT video
+- [x] Add tmux resurrect and continuum from [thish](https://youtu.be/GH3kpsbbERo?si=VeGR-pPU5HOxP3Fx) YT video
 - [] Make the buffer visible in the buffer line even if it's only one
 - [x] Add neovim session managment solutoin so that tmux can open neovim sessions with continuum
 - [] Make the dashboard restore section connected to auto-session instead of the persistence plugin manager. Or remove from dashboard altogether
 - [] Make the screen center (zz) when I use <C-d> or up.
 - [] In visual-multy mode CTRL+h doesn't work for deleting last letter
 - [] Make prettier format the text even if there are errorrs
+- [] Is it possible to view changes of unsaved file using git plugin
+- [] Navigate in neo-tree using hjkl h-close, l-open
+- [] Show only buffers that are opened in windows and figure out a different way to view all opened buffers.
+- [] Only view buffers that are open in current tab
+- [] When deleting the first closing character like "[" also delete the second one.
+- [] Go select add symbol adds spaces between the characters (change that)
+- [] Use Delata pager to show git diff in gitsighn.nvim and more importantly in lazygit
