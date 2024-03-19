@@ -30,3 +30,4 @@
 - [] When deleting the first closing character like "[" also delete the second one.
 - [] Go select add symbol adds spaces between the characters (change that)
 - [] Use Delata pager to show git diff in gitsighn.nvim and more importantly in lazygit
+- [] Remove useless notifications from appearing whenever I switch between buffers (notify)
