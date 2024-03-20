@@ -3,8 +3,13 @@
 [user]
 	email = franvidicek@gmail.com
 	name = 2coolchampion
-[credential]
-	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
+
+# Conditional includes
+[includeIf "gitdir/i:C:/"]
+    path = .gitconfig_wsl
+[includeIf "gitdir/i:/mnt/"]
+    path = .gitconfig_unix
+
 [core]
       pager = delta
 
