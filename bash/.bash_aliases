@@ -2,6 +2,10 @@ nvimconf() {
 	cd ~/.config/nvim
 }
 
+dotnvimconf() {
+	cd ~/dotfiles/nvim/.config/nvim/
+}
+
 nvimswap() {
 	cd ~/.local/state/nvim/swap
 }
