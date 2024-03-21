@@ -127,3 +127,11 @@ export NVM_DIR="$HOME/.nvm"
 # Configure shell to use Starship as its prompt
 eval "$(starship init bash)"
 export PATH=/home/franv/.nvm/versions/node/v21.6.2/lib/node_modules/greptile:$PATH
+
+# pnpm
+export PNPM_HOME="/home/cool/.local/share/pnpm"
+case ":$PATH:" in
+*":$PNPM_HOME:"*) ;;
+*) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
