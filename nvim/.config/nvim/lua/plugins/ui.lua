@@ -19,4 +19,13 @@ return {
       timeout = 10000,
     },
   },
+  -- bufferline
+  {
+    "akinsho/bufferline.nvim",
+    opts = {
+      options = {
+        mode = "tabs",
+      },
+    },
+  },
 }
