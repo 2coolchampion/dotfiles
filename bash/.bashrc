@@ -126,6 +126,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # Configure shell to use Starship as its prompt
 eval "$(starship init bash)"
+
+# Add greptile to PATH
 export PATH=/home/franv/.nvm/versions/node/v21.6.2/lib/node_modules/greptile:$PATH
 
 # pnpm
