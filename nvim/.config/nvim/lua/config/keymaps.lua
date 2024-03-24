@@ -23,6 +23,3 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 
 -- Toggle line wrapping
 keymap.set("n", "<A-z>", ":set wrap!<CR>", opts)
-
--- Neo-tree filetree navigation
--- Have no idea how to do it.
