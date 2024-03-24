@@ -2,6 +2,7 @@
   "extras": [
     "lazyvim.plugins.extras.coding.codeium",
     "lazyvim.plugins.extras.lang.markdown"
+    "lazyvim.plugins.extras.ui.mini-animate"
   ],
   "news": {
     "NEWS.md": "2123"
