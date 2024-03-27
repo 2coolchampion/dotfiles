@@ -13,3 +13,5 @@ nvimswap() {
 lazyvim() {
 	cd ~/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/
 }
+
+alias nv='flatpak run io.neovim.nvim'
