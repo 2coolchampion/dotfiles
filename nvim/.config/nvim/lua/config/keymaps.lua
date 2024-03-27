@@ -24,6 +24,9 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 -- Toggle line wrapping
 keymap.set("n", "<A-z>", ":set wrap!<CR>", opts)
 
+-- Macros
+keymap.set("n", "Q", "@@", opts)
+
 -- TODO: Delete unused buffers
 --
 -- Close hidden buffers
