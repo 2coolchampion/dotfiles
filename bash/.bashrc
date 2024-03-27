@@ -117,6 +117,7 @@ if ! shopt -oq posix; then
 	fi
 fi
 
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/kitty.app/bin:$PATH"
 
 # These lines set up the environment for NVM, ensuring that it is properly initialized when you start a new shell session. They define the location of the NVM directory ($HOME/.nvm) and then load the NVM script (nvm.sh) and its bash completion script (bash_completion) to set up NVM's functionality within your shell.
