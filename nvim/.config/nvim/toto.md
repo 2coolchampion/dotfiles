@@ -25,8 +25,8 @@
 - [] Make prettier format the text even if there are errorrs
 - [] Is it possible to view changes of unsaved file using git plugin
 - [] Navigate in neo-tree using hjkl h-close, l-open
-- [] Show only buffers that are opened in windows and figure out a different way to view all opened buffers.
-- [] Only view buffers that are open in current tab
+- [x] Show only buffers that are opened in windows and figure out a different way to view all opened buffers.
+- [x] Only view buffers that are open in current tab
 - [] When deleting the first closing character like "[" also delete the second one.
 - [] Go select add symbol adds spaces between the characters (change that)
 - [] Use Delata pager to show git diff in gitsighn.nvim and more importantly in lazygit
