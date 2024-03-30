@@ -6,7 +6,7 @@
 - [] Add ~~focus.nvim~~(windows.nvim) for automatic windows resizing
 - [] Accept autocompletion with Tab instead of Enter
 - [] Add Codeium
-- [] Add inc-rename for instant LSP renaming with immediate visual feedback instead of what I have now
+- [x] Add inc-rename for instant LSP renaming with immediate visual feedback instead of what I have now
 - [x] tmux - better keybindings
 - [x] Improve lazyGit theme
 - [] Learn how to serve website to mobile trough [LAN](https://youtu.be/yCK3easuYm4?si=CXNfNKIDVsHpPp-h)
@@ -31,3 +31,5 @@
 - [] Go select add symbol adds spaces between the characters (change that)
 - [] Use Delata pager to show git diff in gitsighn.nvim and more importantly in lazygit
 - [] Remove useless notifications from appearing whenever I switch between buffers (notify)
+- [] Opening type definition opens it in the same window. Which makes me lose the original buffer view.
+- [] Can't properly yank when having multiple same buffers open in different windows
