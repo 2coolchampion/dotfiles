@@ -33,3 +33,5 @@
 - [] Remove useless notifications from appearing whenever I switch between buffers (notify)
 - [] Opening type definition opens it in the same window. Which makes me lose the original buffer view.
 - [] Can't properly yank when having multiple same buffers open in different windows
+- [] Go trough prev and next buffers in history
+- [] Make it easier to browse definitions
