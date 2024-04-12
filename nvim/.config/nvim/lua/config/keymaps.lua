@@ -12,8 +12,8 @@ keymap.set("n", "-", "<C-x>")
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
 -- Split window
-keymap.set("n", "ss", ":split | buffer #<CR>", opts)
-keymap.set("n", "sv", ":vsplit | buffer #<CR>", opts)
+keymap.set("n", "ss", ":split <CR>", opts)
+keymap.set("n", "sv", ":vsplit <CR>", opts)
 
 -- Resize window
 keymap.set("n", "<C-w><left>", "<C-w><")
