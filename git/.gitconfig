@@ -17,7 +17,7 @@
       navigate = true
       light = false
       dark = true
-      side-by-side = false
+      side-by-side = true
       line-numbers = true
 
       ; General appearance
