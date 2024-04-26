@@ -5,8 +5,8 @@ local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
 -- Increment/decremment
-keymap.set("n", "+", "<C-a>")
-keymap.set("n", "-", "<C-x>")
+-- keymap.set("n", "+", "<C-a>")
+-- keymap.set("n", "-", "<C-x>")
 
 -- Select automatically
 keymap.set("n", "<C-a>", "gg<S-v>G")
@@ -20,6 +20,12 @@ keymap.set("n", "<C-w><left>", "<C-w><")
 keymap.set("n", "<C-w><right>", "<C-w>>")
 keymap.set("n", "<C-w><up>", "<C-w>+")
 keymap.set("n", "<C-w><down>", "<C-w>-")
+
+-- Move window
+-- keymap.set("n", "sh", "<C-w>h")
+-- keymap.set("n", "sk", "<C-w>k")
+-- keymap.set("n", "sj", "<C-w>j")
+-- keymap.set("n", "sl", "<C-w>l")
 
 -- Toggle line wrapping
 keymap.set("n", "<A-z>", ":set wrap!<CR>", opts)
